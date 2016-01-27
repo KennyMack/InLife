@@ -14,5 +14,23 @@
     "angular-mocks": "^1.4.0"
   },
   "appPath": "app",
-  "moduleName": "clientApp"
+  "moduleName": "clientApp",
+  "homepage": "https://github.com/PeopleInLife/InLife",
+  "authors": [
+    "KennyMack",
+    "otequio"
+  ],
+  "description": "Front End of Application (site)",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
