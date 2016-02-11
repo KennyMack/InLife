@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    form(method='post', action='/users/add', enctype='multipart/form-data')
+
+        .form-group
+            label Imagem:
+            input.form-control(name='mainimage', id='mainimage', type='file')
+
+
+        input.btn.btn-default(name='submit', type='submit', value='Salvar')
